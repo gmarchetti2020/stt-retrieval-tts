@@ -75,8 +75,8 @@ SOURCE="it"
 TARGET="en"
 
 # Parameters for document processing
-#DOC_DIR="immigration_docs"
-DOC_DIR="medical_docs"
+DOC_DIR="immigration_docs"
+#DOC_DIR="medical_docs"
 
 # Audio recording parameters
 STREAMING_LIMIT = 240000  # 4 minutes

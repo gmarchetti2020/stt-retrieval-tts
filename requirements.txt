@@ -1,6 +1,6 @@
 pyaudio
 termcolor
 six
-git+https://github.com/deepset-ai/haystack.git
 google-cloud-speech
 google-cloud-translate
+farm-haystack
