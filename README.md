@@ -10,6 +10,10 @@ Note that:
   In testing mode, the document store will be cleaned out at each run and documents in a given directory will be re-uploaded.
 - The code retrieves 4 documents and infers two answers out of those. You may want to change that, e.g. to return only the most likely answer.
 - Haystack requires pytorch. To save setup time, you can run on a deep learning machine in Google cloud.
+- The requirements.txt contains the prerequisites. Install with `pip install -r requirements.txt`
+- You will have to change the parameters in the python code so they point to GCP project, source and target languages of your choice.
+- You will need to provide application credentials to access the APIs. For more details see https://cloud.google.com/docs/authentication   
 
+I am providing a couple of pdf files to build a simple document base.
 To test, simply run:
 `python3 main.py`
